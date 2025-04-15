@@ -1,0 +1,94 @@
+{  "file_read_error": {
+  "message": "Errore nella lettura del file, riprova."
+},
+"font_name_read_error": {
+  "message": "Impossibile leggere il nome reale del carattere, inserisci manualmente il nome corretto del carattere."
+},
+"drag_font_file": {
+  "message": "Trascina e rilascia il file del carattere"
+},
+"reading_font_info": {
+  "message": "Lettura delle informazioni sul carattere..."
+},
+"invalid_font_name": {
+  "message": "Inserisci un nome di carattere valido"
+},
+"invalid_domain": {
+  "message": "Inserisci un dominio valido"
+},
+"invalid_domain_format": {
+  "message": "Inserisci un formato di dominio valido, ad es.: example.com"
+},
+"domain_in_whitelist": {
+  "message": "Questo dominio è già nella lista bianca"
+},
+  "extension_name": {
+    "message": "Forzare l'uso del mio carattere"
+  },
+  "extension_description": {
+    "message": "Forzare il browser a utilizzare caratteri personalizzati su tutti i siti"
+  },
+    "reset_title": {
+      "message": "Ripristina predefiniti"
+    },
+    "reset_description": {
+      "message": "Ripristina tutti i siti web al carattere di sistema predefinito"
+    },
+    "reset_button": {
+      "message": "Ripristina al carattere di sistema"
+    },
+    "reset_alert": {
+      "message": "Nota: Dopo il ripristino, dovrai aggiornare manualmente le pagine aperte."
+    },
+    "reset_confirm": {
+      "message": "Sei sicuro di voler ripristinare il carattere di sistema predefinito? Questo cancellerà tutte le impostazioni dei caratteri."
+    },
+    "reset_success": {
+      "message": "✓ Ripristinato ai predefiniti! Per favore aggiorna le pagine per applicare."
+    },
+    "font_title": {
+      "message": "Seleziona carattere (Caratteri installati nel sistema)"
+    },
+    "font_description": {
+      "message": "Inserisci il nome del carattere che desideri utilizzare"
+    },
+    "font_placeholder": {
+      "message": "Inserisci il tuo carattere preferito o trascina qui un file di carattere..."
+    },
+    "font_drop_hint": {
+      "message": "Rilascia per caricare questo carattere"
+    },
+    "font_use_button": {
+      "message": "Usa questo carattere"
+    },
+    "font_alert": {
+      "message": "Nota: Dopo la modifica del carattere, dovrai aggiornare manualmente le pagine aperte."
+    },
+    "whitelist_title": {
+      "message": "Lista bianca (Mantieni carattere originale)"
+    },
+    "whitelist_description": {
+      "message": "Copia l'indirizzo dalla barra degli indirizzi del browser e aggiungilo qui sotto"
+    },
+    "whitelist_placeholder": {
+      "message": "Incolla/inserisci dominio o URL..."
+    },
+    "whitelist_button": {
+      "message": "Aggiungi dominio"
+    },
+    "language_title": {
+      "message": "Impostazioni lingua"
+    },
+    "language_description": {
+      "message": "Scegli la tua lingua preferita per l'interfaccia"
+    },
+    "language_alert": {
+      "message": "L'impostazione della lingua avrà effetto dopo il ricaricamento della pagina."
+    },
+    "save_success": {
+      "message": "✓ Carattere salvato! Per favore aggiorna le pagine per applicare. Se non funziona, prova a riavviare il browser."
+    },
+    "font_error": {
+      "message": "Impossibile leggere il nome reale del carattere. Per favore prova un altro file di carattere o inserisci il nome manualmente."
+    }
+  }

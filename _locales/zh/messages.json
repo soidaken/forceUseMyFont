@@ -1,0 +1,94 @@
+{  "file_read_error": {
+  "message": "读取文件时出错，请重试。"
+},
+"font_name_read_error": {
+  "message": "无法读取字体的实际名称，请手动输入正确的字体名称。"
+},
+"drag_font_file": {
+  "message": "请拖放字体文件"
+},
+"reading_font_info": {
+  "message": "正在读取字体信息..."
+},
+"invalid_font_name": {
+  "message": "请输入有效的字体名称"
+},
+"invalid_domain": {
+  "message": "请输入有效的域名"
+},
+"invalid_domain_format": {
+  "message": "请输入有效的域名格式，如：example.com"
+},
+"domain_in_whitelist": {
+  "message": "该域名已在白名单中"
+},
+  "extension_name": {
+    "message": "强制使用我的字体"
+  },
+  "extension_description": {
+    "message": "在浏览器中强制使用自定义字体浏览所有网站"
+  },
+  "reset_title": {
+    "message": "恢复默认"
+  },
+  "reset_description": {
+    "message": "将所有网站恢复为使用系统默认字体"
+  },
+  "reset_button": {
+    "message": "恢复到系统字体"
+  },
+  "reset_alert": {
+    "message": "注意：恢复后，需要手动刷新已打开的网页才能生效。"
+  },
+  "reset_confirm": {
+    "message": "确定要恢复系统默认字体吗？这将清除所有字体设置。"
+  },
+  "reset_success": {
+    "message": "✓ 已恢复默认设置! 请手动刷新页面生效。"
+  },
+  "font_title": {
+    "message": "字体指定(已安装到系统的字体)"
+  },
+  "font_description": {
+    "message": "输入您想要强制使用的字体名称"
+  },
+  "font_placeholder": {
+    "message": "输入您喜欢的字体名称 或 拖放字体文件至此..."
+  },
+  "font_drop_hint": {
+    "message": "释放鼠标加载此字体"
+  },
+  "font_use_button": {
+    "message": "使用此字体"
+  },
+  "font_alert": {
+    "message": "注意：更改字体后，需要手动刷新已打开的网页才能生效。"
+  },
+  "whitelist_title": {
+    "message": "白名单(保持原始字体)"
+  },
+  "whitelist_description": {
+    "message": "复制网站地址栏地址到下面,会自动识别进行添加"
+  },
+  "whitelist_placeholder": {
+    "message": "粘贴/输入 域名或网址..."
+  },
+  "whitelist_button": {
+    "message": "添加域名"
+  },
+  "language_title": {
+    "message": "语言设置"
+  },
+  "language_description": {
+    "message": "选择您偏好的界面语言"
+  },
+  "language_alert": {
+    "message": "重新加载页面后，语言设置将生效。"
+  },
+  "save_success": {
+    "message": "✓ 字体已保存! 请手动刷新页面生效。如果未生效，请尝试重启浏览器。"
+  },
+  "font_error": {
+    "message": "无法读取字体的实际名称，请尝试其他字体文件或手动输入。"
+  }
+}

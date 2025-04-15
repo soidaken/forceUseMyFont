@@ -1,0 +1,94 @@
+{  "file_read_error": {
+  "message": "Erreur lors de la lecture du fichier, veuillez réessayer."
+},
+"font_name_read_error": {
+  "message": "Impossible de lire le nom de la police, veuillez entrer manuellement le nom de la police correct."
+},
+"drag_font_file": {
+  "message": "Veuillez faire glisser et déposer le fichier de police"
+},
+"reading_font_info": {
+  "message": "Lecture des informations de la police..."
+},
+"invalid_font_name": {
+  "message": "Veuillez entrer un nom de police valide"
+},
+"invalid_domain": {
+  "message": "Veuillez entrer un domaine valide"
+},
+"invalid_domain_format": {
+  "message": "Veuillez entrer un format de domaine valide, par exemple : example.com"
+},
+"domain_in_whitelist": {
+  "message": "Ce domaine est déjà dans la liste blanche"
+},
+    "extension_name": {
+      "message": "Forcer l'utilisation de ma police"
+    },
+    "extension_description": {
+      "message": "Forcer le navigateur à utiliser des polices personnalisées sur tous les sites"
+    },
+    "reset_title": {
+      "message": "Réinitialiser par défaut"
+    },
+    "reset_description": {
+      "message": "Réinitialiser tous les sites web à la police système par défaut"
+    },
+    "reset_button": {
+      "message": "Réinitialiser à la police système"
+    },
+    "reset_alert": {
+      "message": "Note : Après la réinitialisation, vous devrez actualiser manuellement les pages ouvertes."
+    },
+    "reset_confirm": {
+      "message": "Voulez-vous vraiment restaurer la police système par défaut ? Cela effacera tous les paramètres de police."
+    },
+    "reset_success": {
+      "message": "✓ Réinitialisé par défaut ! Veuillez actualiser les pages pour appliquer."
+    },
+    "font_title": {
+      "message": "Sélectionner la police (Polices installées sur le système)"
+    },
+    "font_description": {
+      "message": "Entrez le nom de la police que vous souhaitez utiliser"
+    },
+    "font_placeholder": {
+      "message": "Entrez votre police préférée ou déposez un fichier de police ici..."
+    },
+    "font_drop_hint": {
+      "message": "Déposez pour charger cette police"
+    },
+    "font_use_button": {
+      "message": "Utiliser cette police"
+    },
+    "font_alert": {
+      "message": "Note : Après le changement de police, vous devrez actualiser manuellement les pages ouvertes."
+    },
+    "whitelist_title": {
+      "message": "Liste blanche (Conserver la police d'origine)"
+    },
+    "whitelist_description": {
+      "message": "Copiez l'adresse depuis la barre d'adresse du navigateur et ajoutez-la ci-dessous"
+    },
+    "whitelist_placeholder": {
+      "message": "Collez/entrez le domaine ou l'URL..."
+    },
+    "whitelist_button": {
+      "message": "Ajouter le domaine"
+    },
+    "language_title": {
+      "message": "Paramètres de langue"
+    },
+    "language_description": {
+      "message": "Choisissez votre langue d'interface préférée"
+    },
+    "language_alert": {
+      "message": "Le paramètre de langue prendra effet après le rechargement de la page."
+    },
+    "save_success": {
+      "message": "✓ Police enregistrée ! Veuillez actualiser les pages pour appliquer. Si cela ne fonctionne pas, essayez de redémarrer le navigateur."
+    },
+    "font_error": {
+      "message": "Impossible de lire le nom réel de la police. Veuillez essayer un autre fichier de police ou entrer le nom manuellement."
+    }
+  }

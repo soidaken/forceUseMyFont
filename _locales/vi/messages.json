@@ -1,0 +1,94 @@
+{  "file_read_error": {
+  "message": "Lỗi khi đọc tệp, vui lòng thử lại."
+},
+"font_name_read_error": {
+  "message": "Không thể đọc tên phông chữ thực tế, vui lòng nhập tên phông chữ chính xác bằng tay."
+},
+"drag_font_file": {
+  "message": "Vui lòng kéo và thả tệp phông chữ"
+},
+"reading_font_info": {
+  "message": "Đang đọc thông tin phông chữ..."
+},
+"invalid_font_name": {
+  "message": "Vui lòng nhập tên phông chữ hợp lệ"
+},
+"invalid_domain": {
+  "message": "Vui lòng nhập một miền hợp lệ"
+},
+"invalid_domain_format": {
+  "message": "Vui lòng nhập định dạng miền hợp lệ, ví dụ: example.com"
+},
+"domain_in_whitelist": {
+  "message": "Miền này đã có trong danh sách trắng"
+},
+  "extension_name": {
+    "message": "Buộc sử dụng phông chữ của tôi"
+  },
+  "extension_description": {
+    "message": "Buộc trình duyệt sử dụng phông chữ tùy chỉnh trên tất cả các trang web"
+  },
+    "reset_title": {
+      "message": "Khôi phục mặc định"
+    },
+    "reset_description": {
+      "message": "Khôi phục tất cả các trang web về font mặc định của hệ thống"
+    },
+    "reset_button": {
+      "message": "Khôi phục về font hệ thống"
+    },
+    "reset_alert": {
+      "message": "Lưu ý: Sau khi khôi phục, bạn cần tải lại các trang đang mở theo cách thủ công."
+    },
+    "reset_confirm": {
+      "message": "Bạn có chắc chắn muốn khôi phục về font mặc định của hệ thống? Điều này sẽ xóa tất cả cài đặt font."
+    },
+    "reset_success": {
+      "message": "✓ Đã khôi phục về mặc định! Vui lòng tải lại trang để áp dụng."
+    },
+    "font_title": {
+      "message": "Lựa chọn Font (Font đã cài đặt trong hệ thống)"
+    },
+    "font_description": {
+      "message": "Nhập tên font bạn muốn sử dụng"
+    },
+    "font_placeholder": {
+      "message": "Nhập tên font yêu thích hoặc kéo thả file font vào đây..."
+    },
+    "font_drop_hint": {
+      "message": "Thả để tải font này"
+    },
+    "font_use_button": {
+      "message": "Sử dụng font này"
+    },
+    "font_alert": {
+      "message": "Lưu ý: Sau khi thay đổi font, bạn cần tải lại các trang đang mở theo cách thủ công."
+    },
+    "whitelist_title": {
+      "message": "Danh sách trắng (Giữ nguyên font gốc)"
+    },
+    "whitelist_description": {
+      "message": "Sao chép địa chỉ từ thanh địa chỉ trình duyệt để thêm vào bên dưới"
+    },
+    "whitelist_placeholder": {
+      "message": "Dán/nhập tên miền hoặc URL..."
+    },
+    "whitelist_button": {
+      "message": "Thêm tên miền"
+    },
+    "language_title": {
+      "message": "Cài đặt ngôn ngữ"
+    },
+    "language_description": {
+      "message": "Chọn ngôn ngữ giao diện bạn muốn"
+    },
+    "language_alert": {
+      "message": "Cài đặt ngôn ngữ sẽ có hiệu lực sau khi tải lại trang."
+    },
+    "save_success": {
+      "message": "✓ Đã lưu font! Vui lòng tải lại trang để áp dụng. Nếu không hoạt động, hãy thử khởi động lại trình duyệt."
+    },
+    "font_error": {
+      "message": "Không thể đọc tên font thực tế, vui lòng thử file font khác hoặc nhập thủ công."
+    }
+  }

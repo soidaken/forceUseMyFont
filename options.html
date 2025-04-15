@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ForceUserMyFont</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    
+    .page-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .card {
+      width: 100%;
+      max-width: 800px;
+      padding: 20px;
+      margin-bottom: 15px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    
+    h1, h2 {
+      color: #333;
+      margin-top: 0;
+      font-weight: 500;
+    }
+    
+    h1 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    
+    h2 {
+      font-size: 20px;
+    }
+    
+    p {
+      color: #666;
+      line-height: 1.5;
+      margin-bottom: 8px;
+    }
+    
+    .domain-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-height: 200px;
+      overflow-y: auto;
+      width: 100%;
+    }
+    
+    .domain-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 12px;
+      background-color: #f9f9f9;
+      border-radius: 4px;
+      transition: background-color 0.2s;
+    }
+    
+    .domain-item:hover {
+      background-color: #f0f0f0;
+    }
+    
+    .input-container {
+      display: flex;
+      gap: 40px;
+      width: 100%;
+    }
+    
+    .input-container input {
+      flex: 1;
+      min-width: 0;
+    }
+    
+    .input-container button {
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+    
+    .input-container input, .input-container select {
+      padding: 8px 12px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+      outline: none;
+      transition: border-color 0.2s;
+      font-size: 13px;
+    }
+    
+    .input-container input:focus, .input-container select:focus {
+      border-color: #4d90fe;
+      box-shadow: 0 0 0 2px rgba(77, 144, 254, 0.2);
+    }
+    
+    button {
+      cursor: pointer;
+      padding: 8px 12px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-weight: 500;
+      transition: background-color 0.2s;
+      font-size: 13px;
+    }
+    
+    button:hover {
+      background-color: #3367d6;
+    }
+    
+    .remove-domain {
+      background-color: #f5f5f5;
+      color: #666;
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+    
+    .remove-domain:hover {
+      background-color: #e74c3c;
+      color: white;
+    }
+    
+    .empty-list {
+      color: #888;
+      font-style: italic;
+      text-align: center;
+      padding: 15px;
+      border: 1px dashed #ddd;
+      border-radius: 4px;
+    }
+    
+    .alert {
+      background-color: #fff3cd;
+      color: #856404;
+      padding: 8px 12px;
+      border-radius: 4px;
+      margin-top: 8px;
+      font-size: 13px;
+      border-left: 4px solid #ffc107;
+    }
+    .font-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .font-tag {
+    display: inline-flex;
+    align-items: center;
+    background-color: #e1f5fe;
+    border-radius: 16px;
+    padding: 4px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid #b3e5fc;
+    color: #0288d1;
+    position: relative;
+  }
+  
+  .font-tag:hover {
+    background-color: #b3e5fc;
+  }
+  
+  .font-tag.active {
+    background-color: #4fc3f7;
+    color: white;
+  }
+  
+  .font-tag-remove {
+    margin-left: 6px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #0288d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .font-tag-remove:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }  .font-input-wrapper {
+    position: relative;
+    flex-grow: 1;
+  }
+
+  .font-input-wrapper input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 2px solid #4285f4;  /* Default blue highlight border */
+    outline: none;
+    transition: all 0.2s;
+    font-size: 14px;
+    box-shadow: 0 0 5px rgba(66, 133, 244, 0.2);  /* Subtle glow */
+  }
+
+  .font-input-wrapper input:focus {
+    border-color: #3367d6;
+    box-shadow: 0 0 8px rgba(66, 133, 244, 0.4);  /* Enhanced glow on focus */
+  }
+
+  /* Style for the placeholder text */
+  .font-input-wrapper input::placeholder {
+    font-weight: bold;
+    color: #4285f4;  /* Blue color for visibility */
+    opacity: 0.8;
+  }
+
+/* Add this CSS to fix the drag-and-drop text overlap issue */
+.font-input-wrapper.drag-active input::placeholder {
+  /* Hide placeholder when dragging */
+  opacity: 0;
+  visibility: hidden;
+}
+
+.drag-hint {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(52, 168, 83, 0.1);
+  border: 2px dashed #34a853;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #34a853;
+  pointer-events: none;
+  z-index: 10; /* Ensure it's above the input */
+}
+
+.font-input-wrapper.drag-active .drag-hint {
+  display: flex;
+}.reset-button {
+  background-color: #f44336;
+}  .card:nth-child(2) {
+    border-left: 4px solid #4285f4;
+  }
+
+.reset-button:hover {
+  background-color: #d32f2f;
+}.language-selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.lang-btn {
+  padding: 6px 10px;
+  border-radius: 4px;
+  background-color: #f1f3f4;
+  color: #333;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.lang-btn:hover {
+  background-color: #e8eaed;
+}
+
+.lang-btn.active {
+  background-color: #4285f4;
+  color: white;
+  border-color: #3367d6;
+}
+
+  </style>
+</head>
+<body>
+  <div class="page-container">
+
+<!-- Replace static text with i18n IDs -->
+<div class="card">
+  <div class="container">
+    <h1 id="i18n_reset_title">恢复默认</h1>
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <p id="i18n_reset_description">将所有网站恢复为使用系统默认字体</p>
+      <button id="resetToSystemFont" class="reset-button">恢复到系统字体</button>
+    </div>
+    <div class="alert" id="i18n_reset_alert">
+      注意：恢复后，需要手动刷新已打开的网页才能生效。
+    </div>
+  </div>
+</div>
+
+<!-- Font Selection Card -->
+<div class="card">
+  <div class="container">
+    <h1 id="i18n_font_title">字体指定(已安装到系统的字体)</h1>
+    <p id="i18n_font_description">输入您想要强制使用的字体名称</p>
+    
+    <!-- Font tags container -->
+    <div class="font-tags" id="fontTags">
+      <!-- Font tags will be added here dynamically -->
+    </div>
+    
+    <div class="input-container">
+      <div class="font-input-wrapper">
+        <input type="text" id="customFontInput" placeholder="输入您喜欢的字体名称 或 拖放字体文件至此...">
+        <div class="drag-hint">释放鼠标加载此字体</div>
+      </div>
+      <button id="addCustomFont">使用此字体</button>
+    </div>
+    
+    <div class="alert" id="i18n_font_alert">
+      注意：更改字体后，需要手动刷新已打开的网页才能生效。
+    </div>
+  </div>
+</div>
+
+<!-- Whitelist Card -->
+<div class="card">
+  <div class="container">
+    <h1 id="i18n_whitelist_title">白名单(保持原始字体)</h1>
+    <p id="i18n_whitelist_description">复制网站地址栏地址到下面,会自动识别进行添加</p>       
+    <div class="input-container">
+      <input type="text" id="domainInput" placeholder="粘贴/输入 域名或网址...">
+      <button id="addDomain">添加域名</button>
+    </div>
+    
+    <div class="domain-list" id="domainList">
+      <!-- Domains will be populated here -->
+    </div>
+  </div>
+</div>
+<!-- Language Selection Card -->
+<div class="card">
+  <div class="container">
+    <h1 id="i18n_language_title">语言设置</h1>
+    <p id="i18n_language_description">选择您偏好的界面语言</p>
+    
+    <div class="language-selection">
+      <button class="lang-btn" data-lang="zh">中文</button>
+      <button class="lang-btn" data-lang="zh-HK">繁體中文</button>
+      <button class="lang-btn" data-lang="en">English</button>
+      <button class="lang-btn" data-lang="ja">日本語</button>
+      <button class="lang-btn" data-lang="ko">한국어</button>
+      <button class="lang-btn" data-lang="vi">Tiếng Việt</button>
+      <button class="lang-btn" data-lang="de">Deutsch</button>
+      <button class="lang-btn" data-lang="fr">Français</button>
+      <button class="lang-btn" data-lang="ru">Русский</button>
+      <button class="lang-btn" data-lang="th">ไทย</button>
+      <button class="lang-btn" data-lang="es">Español</button>
+      <button class="lang-btn" data-lang="it">Italiano</button>
+    </div>
+  </div>
+</div>
+  <script src="options.js"></script>
+</body>
+</html>

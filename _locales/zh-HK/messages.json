@@ -1,0 +1,71 @@
+{
+    "extension_name": {
+      "message": "強制使用我的字型"
+    },
+    "extension_description": {
+      "message": "強制瀏覽器在所有網站使用自訂字型"
+    },
+    "reset_title": {
+      "message": "重設為預設值"
+    },
+    "reset_description": {
+      "message": "將所有網站重設為系統預設字型"
+    },
+    "reset_button": {
+      "message": "重設為系統字型"
+    },
+    "reset_alert": {
+      "message": "注意：重設後，您需要手動重新整理已開啟的頁面。"
+    },
+    "reset_confirm": {
+      "message": "確定要還原系統預設字型嗎？這將清除所有字型設定。"
+    },
+    "reset_success": {
+      "message": "✓ 已重設為預設值！請重新整理頁面以套用。"
+    },
+    "font_title": {
+      "message": "選擇字型（系統已安裝的字型）"
+    },
+    "font_description": {
+      "message": "輸入您想使用的字型名稱"
+    },
+    "font_placeholder": {
+      "message": "輸入您喜好的字型名稱或拖放字型檔案到此處..."
+    },
+    "font_drop_hint": {
+      "message": "放開以載入此字型"
+    },
+    "font_use_button": {
+      "message": "使用此字型"
+    },
+    "font_alert": {
+      "message": "注意：變更字型後，您需要手動重新整理已開啟的頁面。"
+    },
+    "whitelist_title": {
+      "message": "白名單（保留原始字型）"
+    },
+    "whitelist_description": {
+      "message": "從瀏覽器網址列複製網址並新增到下方"
+    },
+    "whitelist_placeholder": {
+      "message": "貼上/輸入網域或網址..."
+    },
+    "whitelist_button": {
+      "message": "新增網域"
+    },
+    "language_title": {
+      "message": "語言設定"
+    },
+    "language_description": {
+      "message": "選擇您偏好的介面語言"
+    },
+    "language_alert": {
+      "message": "語言設定將在重新載入頁面後生效。"
+    },
+    "save_success": {
+      "message": "✓ 已儲存字型！請重新整理頁面以套用。如果無效，請嘗試重新啟動瀏覽器。"
+    },
+    "font_error": {
+      "message": "無法讀取實際字型名稱。請嘗試其他字型檔案或手動輸入。"
+    }
+  }

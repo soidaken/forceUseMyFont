@@ -1,0 +1,94 @@
+{  "file_read_error": {
+  "message": "Error reading the file, please try again."
+},
+"font_name_read_error": {
+  "message": "Unable to read the actual font name, please manually enter the correct font name."
+},
+"drag_font_file": {
+  "message": "Please drag and drop the font file"
+},
+"reading_font_info": {
+  "message": "Reading font information..."
+},
+"invalid_font_name": {
+  "message": "Please enter a valid font name"
+},
+"invalid_domain": {
+  "message": "Please enter a valid domain"
+},
+"invalid_domain_format": {
+  "message": "Please enter a valid domain format, e.g., example.com"
+},
+"domain_in_whitelist": {
+  "message": "This domain is already in the whitelist"
+},
+  "extension_name": {
+    "message": "Force Chrome My Font"
+  },
+  "extension_description": {
+    "message": "Force the browser to use custom fonts on all websites"
+  },
+  "reset_title": {
+    "message": "Reset to Default"
+  },
+  "reset_description": {
+    "message": "Reset all websites to use the system default font"
+  },
+  "reset_button": {
+    "message": "Reset to System Font"
+  },
+  "reset_alert": {
+    "message": "Note: After resetting, you need to manually refresh open pages."
+  },
+  "reset_confirm": {
+    "message": "Are you sure you want to restore the system default font? This will clear all font settings."
+  },
+  "reset_success": {
+    "message": "✓ Reset to default! Please refresh pages to apply."
+  },
+  "font_title": {
+    "message": "Font Selection (System Installed Fonts)"
+  },
+  "font_description": {
+    "message": "Enter the name of the font you want to use"
+  },
+  "font_placeholder": {
+    "message": "Enter your favorite font name or drop a font file here..."
+  },
+  "font_drop_hint": {
+    "message": "Release to load this font"
+  },
+  "font_use_button": {
+    "message": "Use This Font"
+  },
+  "font_alert": {
+    "message": "Note: After changing the font, you need to manually refresh open pages."
+  },
+  "whitelist_title": {
+    "message": "Whitelist (Keep Original Fonts)"
+  },
+  "whitelist_description": {
+    "message": "Copy the address from the browser address bar to add it below"
+  },
+  "whitelist_placeholder": {
+    "message": "Paste/enter domain or URL..."
+  },
+  "whitelist_button": {
+    "message": "Add Domain"
+  },
+  "language_title": {
+    "message": "Language Settings"
+  },
+  "language_description": {
+    "message": "Choose your preferred interface language"
+  },
+  "language_alert": {
+    "message": "Language settings will take effect after reloading the page."
+  },
+  "save_success": {
+    "message": "✓ Font saved! Please refresh pages to apply. If it doesn't work, try restarting the browser."
+  },
+  "font_error": {
+    "message": "Cannot read the actual font name, please try another font file or enter manually."
+  }
+}

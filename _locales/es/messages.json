@@ -1,0 +1,94 @@
+{  "file_read_error": {
+  "message": "Error al leer el archivo, por favor intente de nuevo."
+},
+"font_name_read_error": {
+  "message": "No se pudo leer el nombre de la fuente, por favor ingrese manualmente el nombre correcto de la fuente."
+},
+"drag_font_file": {
+  "message": "Por favor, arrastre y suelte el archivo de fuente"
+},
+"reading_font_info": {
+  "message": "Leyendo información de la fuente..."
+},
+"invalid_font_name": {
+  "message": "Por favor, ingrese un nombre de fuente válido"
+},
+"invalid_domain": {
+  "message": "Por favor, ingrese un dominio válido"
+},
+"invalid_domain_format": {
+  "message": "Por favor, ingrese un formato de dominio válido, ej.: example.com"
+},
+"domain_in_whitelist": {
+  "message": "Este dominio ya está en la lista blanca"
+},
+  "extension_name": {
+    "message": "Forzar el uso de mi fuente"
+  },
+  "extension_description": {
+    "message": "Forzar al navegador a usar fuentes personalizadas en todos los sitios"
+  },
+  "reset_title": {
+    "message": "Restablecer a predeterminado"
+  },
+  "reset_description": {
+    "message": "Restablecer todos los sitios web a la fuente predeterminada del sistema"
+  },
+  "reset_button": {
+    "message": "Restablecer a fuente del sistema"
+  },
+  "reset_alert": {
+    "message": "Nota: Después de restablecer, deberás actualizar manualmente las páginas abiertas."
+  },
+  "reset_confirm": {
+    "message": "¿Estás seguro de que deseas restaurar la fuente predeterminada del sistema? Esto borrará todas las configuraciones de fuentes."
+  },
+  "reset_success": {
+    "message": "✓ ¡Restablecido a predeterminado! Por favor, actualiza las páginas para aplicar."
+  },
+  "font_title": {
+    "message": "Seleccionar fuente (Fuentes instaladas en el sistema)"
+  },
+  "font_description": {
+    "message": "Ingresa el nombre de la fuente que deseas usar"
+  },
+  "font_placeholder": {
+    "message": "Ingresa tu fuente preferida o arrastra un archivo de fuente aquí..."
+  },
+  "font_drop_hint": {
+    "message": "Suelta para cargar esta fuente"
+  },
+  "font_use_button": {
+    "message": "Usar esta fuente"
+  },
+  "font_alert": {
+    "message": "Nota: Después de cambiar la fuente, deberás actualizar manualmente las páginas abiertas."
+  },
+  "whitelist_title": {
+    "message": "Lista blanca (Mantener fuente original)"
+  },
+  "whitelist_description": {
+    "message": "Copia la dirección desde la barra de direcciones del navegador y agrégala abajo"
+  },
+  "whitelist_placeholder": {
+    "message": "Pega/ingresa dominio o URL..."
+  },
+  "whitelist_button": {
+    "message": "Agregar dominio"
+  },
+  "language_title": {
+    "message": "Configuración de idioma"
+  },
+  "language_description": {
+    "message": "Elige tu idioma preferido para la interfaz"
+  },
+  "language_alert": {
+    "message": "La configuración de idioma tendrá efecto después de recargar la página."
+  },
+  "save_success": {
+    "message": "✓ ¡Fuente guardada! Por favor, actualiza las páginas para aplicar. Si no funciona, intenta reiniciar el navegador."
+  },
+  "font_error": {
+    "message": "No se pudo leer el nombre real de la fuente. Por favor, intenta con otro archivo de fuente o ingresa el nombre manualmente."
+  }
+}

@@ -1,0 +1,94 @@
+{ "file_read_error": {
+  "message": "ファイルの読み取り中にエラーが発生しました。再試行してください。"
+},
+"font_name_read_error": {
+  "message": "フォントの実際の名前を読み取れませんでした。正しいフォント名を手動で入力してください。"
+},
+"drag_font_file": {
+  "message": "フォントファイルをドラッグ＆ドロップしてください"
+},
+"reading_font_info": {
+  "message": "フォント情報を読み込んでいます..."
+},
+"invalid_font_name": {
+  "message": "有効なフォント名を入力してください"
+},
+"invalid_domain": {
+  "message": "有効なドメインを入力してください"
+},
+"invalid_domain_format": {
+  "message": "有効なドメイン形式を入力してください。例：example.com"
+},
+"domain_in_whitelist": {
+  "message": "このドメインはすでにホワイトリストにあります"
+},
+    "extension_name": {
+      "message": "フォースユースマイフォント"
+    },
+    "extension_description": {
+      "message": "すべてのウェブサイトでカスタムフォントを強制的に使用する"
+    },
+    "reset_title": {
+      "message": "デフォルトにリセット"
+    },
+    "reset_description": {
+      "message": "すべてのウェブサイトをシステムデフォルトフォントに戻す"
+    },
+    "reset_button": {
+      "message": "システムフォントにリセット"
+    },
+    "reset_alert": {
+      "message": "注意: リセット後、開いているページを手動で更新する必要があります。"
+    },
+    "reset_confirm": {
+      "message": "システムのデフォルトフォントに戻しますか？すべてのフォント設定がクリアされます。"
+    },
+    "reset_success": {
+      "message": "✓ デフォルトにリセットしました！ページを更新して適用してください。"
+    },
+    "font_title": {
+      "message": "フォント選択 (システムインストール済みフォント)"
+    },
+    "font_description": {
+      "message": "使用したいフォント名を入力してください"
+    },
+    "font_placeholder": {
+      "message": "お気に入りのフォント名を入力するか、フォントファイルをここにドロップ..."
+    },
+    "font_drop_hint": {
+      "message": "このフォントを読み込むにはドロップしてください"
+    },
+    "font_use_button": {
+      "message": "このフォントを使用"
+    },
+    "font_alert": {
+      "message": "注意: フォントを変更した後、開いているページを手動で更新する必要があります。"
+    },
+    "whitelist_title": {
+      "message": "ホワイトリスト (元のフォントを保持)"
+    },
+    "whitelist_description": {
+      "message": "ブラウザのアドレスバーからアドレスをコピーして以下に追加してください"
+    },
+    "whitelist_placeholder": {
+      "message": "ドメインまたはURLを貼り付け/入力..."
+    },
+    "whitelist_button": {
+      "message": "ドメインを追加"
+    },
+    "language_title": {
+      "message": "言語設定"
+    },
+    "language_description": {
+      "message": "希望するインターフェース言語を選択してください"
+    },
+    "language_alert": {
+      "message": "言語設定はページを再読み込み後に適用されます。"
+    },
+    "save_success": {
+      "message": "✓ フォントが保存されました！ 適用するにはページを更新してください。動作しない場合は、ブラウザを再起動してみてください。"
+    },
+    "font_error": {
+      "message": "実際のフォント名を読み取れません。別のフォントファイルを試すか、手動で入力してください。"
+    }
+  }

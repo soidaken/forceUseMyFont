@@ -1,0 +1,94 @@
+{  "file_read_error": {
+  "message": "Fehler beim Lesen der Datei, bitte versuchen Sie es erneut."
+},
+"font_name_read_error": {
+  "message": "Der tatsächliche Schriftartname konnte nicht gelesen werden, bitte geben Sie den richtigen Schriftartnamen manuell ein."
+},
+"drag_font_file": {
+  "message": "Bitte ziehen Sie die Schriftartdatei hierher"
+},
+"reading_font_info": {
+  "message": "Schriftartinformationen werden gelesen..."
+},
+"invalid_font_name": {
+  "message": "Bitte geben Sie einen gültigen Schriftartnamen ein"
+},
+"invalid_domain": {
+  "message": "Bitte geben Sie eine gültige Domain ein"
+},
+"invalid_domain_format": {
+  "message": "Bitte geben Sie ein gültiges Domainformat ein, z.B. example.com"
+},
+"domain_in_whitelist": {
+  "message": "Diese Domain ist bereits in der Whitelist"
+},
+    "extension_name": {
+      "message": "Meine Schriftart erzwingen"
+    },
+    "extension_description": {
+      "message": "Den Browser zwingen, benutzerdefinierte Schriftarten auf allen Websites zu verwenden"
+    },
+    "reset_title": {
+      "message": "Auf Standard zurücksetzen"
+    },
+    "reset_description": {
+      "message": "Alle Webseiten auf die Standard-Systemschriftart zurücksetzen"
+    },
+    "reset_button": {
+      "message": "Auf Systemschriftart zurücksetzen"
+    },
+    "reset_alert": {
+      "message": "Hinweis: Nach dem Zurücksetzen müssen Sie geöffnete Seiten manuell neu laden."
+    },
+    "reset_confirm": {
+      "message": "Möchten Sie wirklich die Standard-Systemschriftart wiederherstellen? Dies wird alle Schriftarteinstellungen löschen."
+    },
+    "reset_success": {
+      "message": "✓ Auf Standard zurückgesetzt! Bitte laden Sie die Seiten neu, um die Änderungen zu übernehmen."
+    },
+    "font_title": {
+      "message": "Schriftart auswählen (Systeminstallierte Schriftarten)"
+    },
+    "font_description": {
+      "message": "Geben Sie den Namen der gewünschten Schriftart ein"
+    },
+    "font_placeholder": {
+      "message": "Geben Sie Ihre bevorzugte Schriftart ein oder ziehen Sie eine Schriftartdatei hierher..."
+    },
+    "font_drop_hint": {
+      "message": "Loslassen, um diese Schriftart zu laden"
+    },
+    "font_use_button": {
+      "message": "Diese Schriftart verwenden"
+    },
+    "font_alert": {
+      "message": "Hinweis: Nach der Schriftartänderung müssen Sie geöffnete Seiten manuell neu laden."
+    },
+    "whitelist_title": {
+      "message": "Whitelist (Originalschriftart beibehalten)"
+    },
+    "whitelist_description": {
+      "message": "Kopieren Sie die Adresse aus der Browser-Adressleiste und fügen Sie sie unten ein"
+    },
+    "whitelist_placeholder": {
+      "message": "Domain oder URL einfügen/eingeben..."
+    },
+    "whitelist_button": {
+      "message": "Domain hinzufügen"
+    },
+    "language_title": {
+      "message": "Spracheinstellungen"
+    },
+    "language_description": {
+      "message": "Wählen Sie Ihre bevorzugte Oberflächensprache"
+    },
+    "language_alert": {
+      "message": "Die Spracheinstellung wird nach dem Neuladen der Seite wirksam."
+    },
+    "save_success": {
+      "message": "✓ Schriftart gespeichert! Bitte laden Sie die Seiten neu, um die Änderungen zu übernehmen. Falls es nicht funktioniert, starten Sie den Browser neu."
+    },
+    "font_error": {
+      "message": "Der tatsächliche Schriftartname konnte nicht gelesen werden. Bitte versuchen Sie eine andere Schriftartdatei oder geben Sie den Namen manuell ein."
+    }
+  }
